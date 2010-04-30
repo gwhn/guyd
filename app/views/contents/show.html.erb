@@ -1,0 +1,23 @@
+<p>
+  <b>Title:</b>
+  <%=h @content.title %>
+</p>
+
+<p>
+  <b>Excerpt:</b>
+  <%=h @content.excerpt %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @content.body %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%=h @content.image_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_content_path(@content) %> |
+<%= link_to 'Back', contents_path %>
