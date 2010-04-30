@@ -627,3 +627,73 @@ Migrating to AddSectionIdToContent (20100430205335)
 [0m
   [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("contents")[0m
   [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("sections")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddSectionIdToContent (20100430205335)
+  [4;36;1mSQL (51.9ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (36.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_contents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "excerpt" text, "body" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime, "section_id" varchar(255)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("contents")[0m
+  [4;35;1mSQL (13.4ms)[0m   [0mDROP TABLE "contents"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "contents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "excerpt" text, "body" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_contents")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDROP TABLE "altered_contents"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20100430205335'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("contents")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("sections")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateContents (20100430185926)
+Migrating to CreateSections (20100430204705)
+Migrating to CreateContentsSectionsTable (20100430213619)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "contents_sections" ("content_id" integer, "section_id" integer) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100430213619')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("contents")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("contents_sections")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("sections")[0m
+  [4;36;1mSection Create (0.4ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('About', '2010-04-30 21:48:36', '2010-04-30 21:48:36', NULL)[0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Clients', '2010-04-30 21:49:13', '2010-04-30 21:49:13', NULL)[0m
+  [4;36;1mSection Create (0.4ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Projects', '2010-04-30 21:49:44', '2010-04-30 21:49:44', NULL)[0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Home', '2010-04-30 21:50:16', '2010-04-30 21:50:16', NULL)[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."name" = 'About') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."name" = 'About') LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."name" = 'About') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Update (0.6ms)[0m   [0;1mUPDATE "sections" SET "updated_at" = '2010-04-30 21:57:19', "parent_id" = 4 WHERE "id" = 1[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."name" = 'Clients') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."name" = 'Projects') LIMIT 1[0m
+  [4;36;1mSection Update (36.5ms)[0m   [0;1mUPDATE "sections" SET "updated_at" = '2010-04-30 21:59:40', "parent_id" = 4 WHERE "id" = 2[0m
+  [4;35;1mSection Update (0.1ms)[0m   [0mUPDATE "sections" SET "updated_at" = '2010-04-30 21:59:40', "parent_id" = 4 WHERE "id" = 3[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 4) [0m
