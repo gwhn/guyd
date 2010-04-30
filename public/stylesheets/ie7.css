@@ -1,0 +1,40 @@
+#slider #strap-line {
+    top: 92px;
+}
+
+h3 {
+    line-height: 18px;
+}
+
+#search-submit {
+    top: 1px;
+}
+
+ul.sf-menu li li.sfHover ul {
+    left: 14.2em !important; /* match ul width */
+    top: 0;
+}
+
+.view-port {
+    float: none;
+}
+
+.feature-box p {
+    float: left;
+}
+
+#page-name h2 {
+    margin-bottom: 5px !important;
+}
+
+#comments h3 {
+    margin-bottom: 10px !important;
+}
+
+#latest-post h5 {
+    margin-bottom: 2.5px;
+}
+
+#sidebar .widget h3 {
+    margin-bottom: 10px;
+}

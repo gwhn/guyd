@@ -1,0 +1,80 @@
+@charset
+"utf-8"
+;
+
+/** Blue Color Scheme - Default 
+	blue:#0077bc
+**/
+
+/** Typography **/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0077bc;
+}
+
+/** Header **/
+
+#home-page #header {
+    background: url(/images/blue/home_bg.jpg) repeat-x left top;
+}
+
+#sub-page #header {
+    background: url(/images/blue/sub_bg.jpg) repeat-x left top;
+}
+
+#logo {
+    background: url(/images/blue/logo.png) no-repeat;
+}
+
+.sf-menu li.selected, .sf-menu li:hover {
+    background: url(/images/blue/nav_left.png) no-repeat 0 0;
+}
+
+.sf-menu li.selected a, .sf-menu li a:hover {
+    background: url(/images/blue/nav_right.png) no-repeat center right;
+}
+
+#home-page #slider {
+    background: url(/images/blue/home_slider.jpg) no-repeat center top;
+}
+
+#sub-page #slider {
+    background: url(/images/blue/sub_slider.jpg) no-repeat center top;
+}
+
+/** Sidebar **/
+
+#sidebar .widget li a:hover {
+    color: #0077bc;
+}
+
+#sidebar .widget li.current a, #sidebar .widget li.current a:hover {
+    font-weight: bold;
+    color: #0077bc;
+}
+
+/** Blog **/
+
+.entry h3 a {
+    color: #0077bc;
+}
+
+.entry h3 a:hover {
+    color: #0077bc;
+}
+
+.meta a {
+    color: #0077bc;
+}
+
+/** Comments **/
+
+#comments .commentlist a {
+    color: #0077bc;
+}
+
+/** Contact us Form **/
+
+#contact-warp p.label {
+    color: #0077bc;
+}

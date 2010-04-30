@@ -12,8 +12,47 @@
   <component name="GemRequirementsHolder" version="2">
     <requirement>
       <requirement>
+        <dependency name="activerecord" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source from="code/e1/ar/encrypt.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mislav-will_paginate" version="2.3.2" bound="LATEST_IN_BRANCH" url="http://gems.github.com" lib="will_paginate" git="false" />
+      </requirement>
+      <source from="code/e1/views/app/controllers/pager_controller.rb" />
+      <source from="code/pragforms/config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
+      <source from="code/depot_a/config/boot.rb" />
+      <source from="code/depot_b/config/boot.rb" />
+      <source from="code/depot_c/config/boot.rb" />
+      <source from="code/depot_client/config/boot.rb" />
+      <source from="code/depot_d/config/boot.rb" />
+      <source from="code/depot_e/config/boot.rb" />
+      <source from="code/depot_f/config/boot.rb" />
+      <source from="code/depot_g/config/boot.rb" />
+      <source from="code/depot_h/config/boot.rb" />
+      <source from="code/depot_i/config/boot.rb" />
+      <source from="code/depot_j/config/boot.rb" />
+      <source from="code/depot_k/config/boot.rb" />
+      <source from="code/depot_l/config/boot.rb" />
+      <source from="code/depot_m/config/boot.rb" />
+      <source from="code/depot_n/config/boot.rb" />
+      <source from="code/depot_o/config/boot.rb" />
+      <source from="code/depot_p/config/boot.rb" />
+      <source from="code/depot_q/config/boot.rb" />
+      <source from="code/depot_r/config/boot.rb" />
+      <source from="code/depot_s/config/boot.rb" />
+      <source from="code/depot_t/config/boot.rb" />
+      <source from="code/e1/cookies/cookie2/config/boot.rb" />
+      <source from="code/e1/namelist/config/boot.rb" />
+      <source from="code/e1/routing/config/boot.rb" />
+      <source from="code/restful/config/boot.rb" />
+      <source from="code/restful2/config/boot.rb" />
       <source from="config/boot.rb" />
     </requirement>
     <requirement>
@@ -30,15 +69,35 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v2.3.5, /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] activerecord (v2.3.5, /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v2.3.5, /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, /opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v2.3.5, /opt/local/lib/ruby/gems/1.8/gems/activeresource-2.3.5)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v2.3.5, /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.5)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v2.3.5, /opt/local/lib/ruby/gems/1.8/gems/actionmailer-2.3.5)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rack (v1.0.1, /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.2.5, /opt/local/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] railties (v3.0.0.beta3, /opt/local/lib/ruby/gems/1.8/gems/railties-3.0.0.beta3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack (v1.1.0, /opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] tzinfo (v0.3.19, /Users/guy/.gem/ruby/1.8/gems/tzinfo-0.3.19)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack-test (v0.5.3, /opt/local/lib/ruby/gems/1.8/gems/rack-test-0.5.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack-mount (v0.6.3, /opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.6.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] polyglot (v0.3.1, /opt/local/lib/ruby/gems/1.8/gems/polyglot-0.3.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] arel (v0.3.3, /opt/local/lib/ruby/gems/1.8/gems/arel-0.3.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] thor (v0.13.4, /opt/local/lib/ruby/gems/1.8/gems/thor-0.13.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mail (v2.2.0, /opt/local/lib/ruby/gems/1.8/gems/mail-2.2.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v3.0.0.beta3, /opt/local/lib/ruby/gems/1.8/gems/activeresource-3.0.0.beta3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] memcache-client (v1.8.2, /Users/guy/.gem/ruby/1.8/gems/memcache-client-1.8.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] text-hyphen (v1.0.0, /Users/guy/.gem/ruby/1.8/gems/text-hyphen-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] treetop (v1.4.5, /opt/local/lib/ruby/gems/1.8/gems/treetop-1.4.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] abstract (v1.0.0, /opt/local/lib/ruby/gems/1.8/gems/abstract-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activerecord (v3.0.0.beta3, /opt/local/lib/ruby/gems/1.8/gems/activerecord-3.0.0.beta3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v3.0.0.beta3, /opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.0.beta3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] builder (v2.1.2, /opt/local/lib/ruby/gems/1.8/gems/builder-2.1.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v3.0.0.beta3, /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.0.beta3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activemodel (v3.0.0.beta3, /opt/local/lib/ruby/gems/1.8/gems/activemodel-3.0.0.beta3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v0.9.24, /opt/local/lib/ruby/gems/1.8/gems/bundler-0.9.24)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] i18n (v0.3.6, /Users/guy/.gem/ruby/1.8/gems/i18n-0.3.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] erubis (v2.6.5, /opt/local/lib/ruby/gems/1.8/gems/erubis-2.6.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v3.0.0.beta3, /opt/local/lib/ruby/gems/1.8/gems/actionmailer-3.0.0.beta3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mime-types (v1.16, /opt/local/lib/ruby/gems/1.8/gems/mime-types-1.16)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v3.0.0.beta3, /opt/local/lib/ruby/gems/1.8/gems/rails-3.0.0.beta3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] text-format (v1.0.0, /Users/guy/.gem/ruby/1.8/gems/text-format-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mislav-will_paginate (v2.3.11, /Users/guy/.gem/ruby/1.8/gems/mislav-will_paginate-2.3.11)" level="application" />
   </component>
 </module>
 
