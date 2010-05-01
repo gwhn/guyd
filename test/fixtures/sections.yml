@@ -1,9 +1,10 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-one:
-  name: MyString
-  parent_id: 1
+home:
+  name: Home
+  parent_id:
 
-two:
-  name: MyString
-  parent_id: 1
+about:
+  name: About
+  parent_id: 
+

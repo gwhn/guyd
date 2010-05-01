@@ -1,5 +1,9 @@
 class Section < ActiveRecord::Base
-  belongs_to :parent, :class_name => 'Section', :foreign_key => 'parent_id'
-  has_many :children, :class_name => 'Section', :foreign_key => 'parent_id'
+  acts_as_tree :order => :name
   has_and_belongs_to_many :contents
+
+  validates_presence_of :name
+  validates_uniqueness_of :name
+
+  
 end

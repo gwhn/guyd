@@ -98,6 +98,8 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v3.0.0.beta3, /opt/local/lib/ruby/gems/1.8/gems/rails-3.0.0.beta3)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] text-format (v1.0.0, /Users/guy/.gem/ruby/1.8/gems/text-format-1.0.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] mislav-will_paginate (v2.3.11, /Users/guy/.gem/ruby/1.8/gems/mislav-will_paginate-2.3.11)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] httparty (v0.5.2, /opt/local/lib/ruby/gems/1.8/gems/httparty-0.5.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] crack (v0.1.6, /opt/local/lib/ruby/gems/1.8/gems/crack-0.1.6)" level="application" />
   </component>
 </module>
 

@@ -1,0 +1,1429 @@
+  [4;36;1mSection Load (1.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:50:30', '2010-05-01 16:50:30', NULL)[0m
+  [4;36;1mSection Load (0.6ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 298486374) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.5ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:53:55', '2010-05-01 16:53:55', 980190962)[0m
+  [4;35;1mSection Load (1.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.4ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:53:55', '2010-05-01 16:53:55', NULL)[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 298486374) [0m
+  [4;35;1mSection Load (1.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:56:17', '2010-05-01 16:56:17', 980190962)[0m
+  [4;35;1mSection Load (1.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.6ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:56:17', '2010-05-01 16:56:17', NULL)[0m
+  [4;36;1mSection Load (2.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 298486374) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:57:00', '2010-05-01 16:57:00', 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."name" = 'MyString') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 298486374) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.5ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:57:00', '2010-05-01 16:57:00', NULL)[0m
+  [4;36;1mSection Load (0.5ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 298486374) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:58:48', '2010-05-01 16:58:48', 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."name" = 'MyString') LIMIT 1[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 298486374) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.4ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:58:48', '2010-05-01 16:58:48', NULL)[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 298486374) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:59:08', '2010-05-01 16:59:08', 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."name" = 'MyString') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 298486374) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.6ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:59:08', '2010-05-01 16:59:08', NULL)[0m
+  [4;36;1mSection Load (1.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 298486374) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:59:21', '2010-05-01 16:59:21', 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."name" = 'MyString') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 298486374) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('MyString', '2010-05-01 16:59:21', '2010-05-01 16:59:21', NULL)[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:01:35', '2010-05-01 17:01:35', 980190962)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 980190962) [0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('About', '2010-05-01 17:01:35', '2010-05-01 17:01:35', NULL)[0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:03:10', '2010-05-01 17:03:10', 980190962)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 980190962) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 980190962) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Create (0.5ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('About', '2010-05-01 17:03:10', '2010-05-01 17:03:10', NULL)[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 980190962) [0m
+  [4;35;1mSection Create (0.8ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:03:44', '2010-05-01 17:03:44', 980190962)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 980190962) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 980190962) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 980190962) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Create (0.5ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('About', '2010-05-01 17:03:44', '2010-05-01 17:03:44', NULL)[0m
+  [4;36;1mSection Load (1.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 93372675) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (1.6ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 93372675) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 93372675) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 93372675) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (1.0ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 93372675) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."name" = 'About') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.4ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:23:22', '2010-05-01 17:23:22', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:25:58', '2010-05-01 17:25:58', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = '#<Section:0x103719400>') LIMIT 1[0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES(836111569, '2010-05-01 17:25:58', '2010-05-01 17:25:58', NULL)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = '#<Section:0x103719400>' AND "sections".id <> 905192166) LIMIT 1[0m
+  [4;36;1mSection Load (1.4ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:27:32', '2010-05-01 17:27:32', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.5ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (1.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:28:38', '2010-05-01 17:28:38', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:29:58', '2010-05-01 17:29:58', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (1.0ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:30:33', '2010-05-01 17:30:33', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.8ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (1.0ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:38:53', '2010-05-01 17:38:53', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mContent Load (0.3ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;35;1mSQL (1.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;36;1mContent Load (0.3ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (3.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:39:32', '2010-05-01 17:39:32', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mSection Load (3.0ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mContent Load (0.3ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;36;1mContent Load (0.3ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mContent Load (0.4ms)[0m   [0;1mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.8ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:40:26', '2010-05-01 17:40:26', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mContent Load (0.3ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;36;1mContent Load (0.3ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mContent Load (0.3ms)[0m   [0;1mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSection Load (0.9ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.7ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:41:52', '2010-05-01 17:41:52', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mContent Load (3.9ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;36;1mContent Load (0.2ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mContent Load (0.4ms)[0m   [0;1mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 17:48:06', '2010-05-01 17:48:06', 905192165)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.9ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mContent Load (0.3ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSection Load (1.0ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (2.0ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 18:07:41', '2010-05-01 18:07:41', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (3.0ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mContent Load (1.8ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;36;1mContent Load (0.2ms)[0m   [0;1mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mContent Load (0.4ms)[0m   [0;1mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;36;1mSection Create (0.3ms)[0m   [0;1mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 18:09:18', '2010-05-01 18:09:18', 905192165)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (1.9ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.7ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 18:15:39', '2010-05-01 18:15:39', 905192165)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.8ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 18:16:43', '2010-05-01 18:16:43', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (2.6ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mContent Create (0.4ms)[0m   [0;1mINSERT INTO "contents" ("created_at", "title", "body", "image_url", "excerpt", "updated_at") VALUES('2010-05-01 18:17:05', 'test', 'text', NULL, NULL, '2010-05-01 18:17:05')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190963)[0m
+  [4;36;1mSection Load (2.0ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 18:17:05', '2010-05-01 18:17:05', 905192165)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.6ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (2.0ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.6ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mContent Create (0.4ms)[0m   [0;1mINSERT INTO "contents" ("created_at", "title", "body", "image_url", "excerpt", "updated_at") VALUES('2010-05-01 18:18:25', 'test', 'text', NULL, NULL, '2010-05-01 18:18:25')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190963)[0m
+  [4;36;1mSection Load (1.1ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 18:18:25', '2010-05-01 18:18:25', 905192165)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.6ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 18:21:00', '2010-05-01 18:21:00', 905192165)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (1.0ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 19:36:03', '2010-05-01 19:36:03', 905192165)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.9ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.9ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.5ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.8ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 19:36:31', '2010-05-01 19:36:31', 905192165)[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.9ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (3.0ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.5ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.6ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:06:21', '2010-05-01 20:06:21', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (1.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.7ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.7ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:19:57', '2010-05-01 20:19:57', 905192165)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.8ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (2.5ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (1.0ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:21:51', '2010-05-01 20:21:51', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (1.6ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (3.9ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:22:12', '2010-05-01 20:22:12', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (1.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (1.1ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (3.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:42:38', '2010-05-01 20:42:38', 905192165)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (1.1ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:43:36', '2010-05-01 20:43:36', 905192165)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.5ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.5ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (2.1ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:44:22', '2010-05-01 20:44:22', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (1.6ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (1.7ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (3.0ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:46:03', '2010-05-01 20:46:03', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (2.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (5.6ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.5ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.6ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:46:51', '2010-05-01 20:46:51', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (1.8ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (1.7ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:47:17', '2010-05-01 20:47:17', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.8ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (1.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.8ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:56:57', '2010-05-01 20:56:57', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (1.0ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:57:38', '2010-05-01 20:57:38', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (1.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (2.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (1.7ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.9ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (3.0ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:58:06', '2010-05-01 20:58:06', 905192165)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.6ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.9ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (1.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:58:39', '2010-05-01 20:58:39', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.9ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.7ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.6ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:59:01', '2010-05-01 20:59:01', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 20:59:41', '2010-05-01 20:59:41', 905192165)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.9ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (1.1ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.5ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.7ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (1.0ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 21:32:19', '2010-05-01 21:32:19', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.5ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (1.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 21:32:41', '2010-05-01 21:32:41', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.5ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 21:53:08', '2010-05-01 21:53:08', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.5ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.6ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (1.9ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (3.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 21:53:56', '2010-05-01 21:53:56', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (1.0ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (1.0ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.7ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 21:55:25', '2010-05-01 21:55:25', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.8ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.6ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (1.0ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.8ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 21:56:43', '2010-05-01 21:56:43', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (4.6ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (3.4ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (1.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.6ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (3.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.5ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 21:57:02', '2010-05-01 21:57:02', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (1.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.7ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.7ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 22:13:38', '2010-05-01 22:13:38', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.6ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.7ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (1.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.5ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.4ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.3ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 22:19:58', '2010-05-01 22:19:58', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.6ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (3.0ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (1.0ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.5ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.6ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.5ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 22:32:54', '2010-05-01 22:32:54', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (1.0ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (1.9ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 22:33:41', '2010-05-01 22:33:41', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.6ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (1.1ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.8ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.5ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.2ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (905192165, 980190962)[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'About' AND "sections".id <> 905192165) LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" INNER JOIN "contents_sections" ON "sections".id = "contents_sections".section_id WHERE ("contents_sections".content_id = 980190962 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 980190962) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 980190962)[0m
+  [4;35;1mContent Load (0.6ms)[0m   [0mSELECT * FROM "contents" WHERE ("contents"."id" = 298486374) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "contents_sections" ("section_id", "content_id") VALUES (836111569, 298486374)[0m
+  [4;35;1mSection Load (2.6ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home' AND "sections".id <> 836111569) LIMIT 1[0m
+  [4;35;1mContent Load (0.3ms)[0m   [0mSELECT * FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contents" INNER JOIN "contents_sections" ON "contents".id = "contents_sections".content_id WHERE ("contents_sections".section_id = 836111569 ) [0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 905192165) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Experience') LIMIT 1[0m
+  [4;35;1mSection Create (0.4ms)[0m   [0mINSERT INTO "sections" ("name", "created_at", "updated_at", "parent_id") VALUES('Experience', '2010-05-01 22:36:30', '2010-05-01 22:36:30', 905192165)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sections" WHERE ("sections".parent_id = 905192165) [0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT * FROM "sections" WHERE ("sections".parent_id = 905192165) ORDER BY name LIMIT 1[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM "sections" WHERE ("sections"."id" = 836111569) [0m
+  [4;36;1mSection Load (0.2ms)[0m   [0;1mSELECT "sections".id FROM "sections" WHERE ("sections"."name" = 'Home') LIMIT 1[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT "sections".id FROM "sections" WHERE ("sections"."name" IS NULL) LIMIT 1[0m
