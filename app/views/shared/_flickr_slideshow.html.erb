@@ -1,0 +1,12 @@
+<div id="flickr">
+  <div class="slideshow">
+    <ul>
+      <% flickr_slideshow.each do |photo| %>
+          <li>
+            <%= image_tag(Flickr.url_for(photo), {:alt => photo['title']}) %>
+          </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+<div id="buttons"><a href="#" class="prev">prev</a><a href="#" class="next">next</a></div>

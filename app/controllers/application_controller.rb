@@ -7,4 +7,14 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+
+  before_filter :get_root_sections
+
+  private
+
+  def get_root_sections
+    @sections = Section.roots
+    @current_selection = nil
+  end
+
 end

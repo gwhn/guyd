@@ -11,12 +11,14 @@ class Flickr
     "http://farm#{photo['farm']}.static.flickr.com/#{photo['server']}/#{photo['id']}_#{photo['secret']}_m.jpg"
   end
 
-  def self.get_favourites(username = USERS[0])
+  def self.get_favourites(options = {})
+    options.reverse_merge!({:username => USERS[0], :per_page => 5, :page => 1})
     get('/services/rest/', :query => {
             :method => 'flickr.favorites.getPublicList',
             :api_key => '6ab7a361467c9e9ecf08861153ea28eb',
-            :user_id => find_by_username(username)['nsid'],
-            :per_page => 5
+            :user_id => find_by_username(options[:username])['nsid'],
+            :per_page => options[:per_page],
+            :page => options[:page]
     })['rsp']['photos']['photo']
   end
 

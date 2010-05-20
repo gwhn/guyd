@@ -10,44 +10,10 @@
       <div id="logo">
         <h1><a href="index.html">INSIGHT</a></h1>
       </div>
-      <ul class="sf-menu">
-        <li class="selected"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a>
-          <ul>
-            <li><a href="full-width.html">Full Width</a></li>
-            <li><a href="#">Meet The Team</a>
-              <ul>
-                <li><a href="#">Just For</a></li>
-                <li><a href="#">Demonstration</a></li>
-                <li><a href="#">Purposes</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="blog.html">Blog</a>
-          <ul>
-            <li><a href="blog-single.html">Single Post</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <%= render :partial => 'shared/menu', :object => @sections, :locals => {:selected => @current_section} %>
       <div id="slider">
-        <div id="strap-line">
-          <h2>The best Template for business and freelancers</h2>
-        </div>
-        <div id="latest-project">
-          <div class="slideshow-wrap">
-            <ul>
-              <li><a href="#"><img src="/images/slides/slide1.jpg" alt="slide1"/></a></li>
-              <li><a href="#"><img src="/images/slides/slide2.jpg" alt="slide1"/></a></li>
-              <li><a href="#"><img src="/images/slides/slide3.jpg" alt="slide1"/></a></li>
-            </ul>
-          </div>
-        </div>
-        <div id="buttons"><a href="#" class="prev">prev</a><a href="#" class="next">next</a></div>
+        <%= render :partial => 'shared/quotations', :object => @quotes %>
+        <%= render :partial => 'shared/flickr_slideshow', :object => @slides %>
       </div>
     </div>
   </div>

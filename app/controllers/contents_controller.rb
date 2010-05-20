@@ -41,7 +41,9 @@ class ContentsController < ApplicationController
   # POST /contents.xml
   def create
     @content = Content.new(params[:content])
-
+    section = Section.find_by_id(params[:section_id])
+    @content.sections << section
+    
     respond_to do |format|
       if @content.save
         flash[:notice] = 'Content was successfully created.'

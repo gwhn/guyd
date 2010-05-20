@@ -16,18 +16,25 @@
           Cufon.replace("h1, h2, h3");
       });
   </script>
-  <%= javascript_include_tag 'jcarousellite' %>
+  <%= javascript_include_tag 'jcarousellite_1.0.1.min' %>
   <%= javascript_include_tag 'jquery.easing' %>
   <script type="text/javascript">
       $(function() {
-          $(".slideshow-wrap").jCarouselLite({
+          $(".slideshow").jCarouselLite({
               btnNext: ".next",
               btnPrev: ".prev",
               visible: 1,
               vertical: false,
-              auto: 2500,
-              speed: 1000,
-              easing: "easeOutCubic"
+              auto: 5000,
+              speed: 1250,
+              easing: "easeInBack"
+          });
+          $(".quotations").jCarouselLite({
+              visible: 1,
+              vertical: true,
+              auto: 3000,
+              speed: 500,
+              easing: "swing"
           });
       });
   </script>

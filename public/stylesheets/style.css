@@ -275,7 +275,7 @@ ul.sf-menu {
     left: 0;
 }
 
-#slider #strap-line {
+#slider #strap_line {
     position: absolute;
     top: 102px;
     left: 55px;
@@ -284,11 +284,11 @@ ul.sf-menu {
     color: #fff;
 }
 
-#slider #strap-line h2 {
+#slider #strap_line h2 {
     color: #fff;
 }
 
-#slider #latest-project {
+#slider #flickr {
     position: absolute;
     width: 390px;
     height: 163px;
@@ -296,16 +296,17 @@ ul.sf-menu {
     right: 10px;
 }
 
-.slideshow-wrap {
+.slideshow {
     position: absolute;
-    width: 274px;
-    height: 150px;
     top: 6px;
     margin-left: 60px;
+    width: 274px;
+    height: 150px;
 }
 
-.slideshow-wrap ul {
+.slideshow img {
     width: 274px;
+    min-height: 150px;
 }
 
 #buttons {
@@ -979,3 +980,4 @@ ul.sf-menu {
 .copyrights span {
     color: #a2a2a2;
 }
+

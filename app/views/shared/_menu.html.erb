@@ -1,0 +1,8 @@
+<% content_for :menu do %>
+<ul class="sf-menu">
+  <%= build_menu menu, selected %>
+  <%= yield :menu_items %>
+</ul>
+<% end %>
+
+<%= yield :menu %>

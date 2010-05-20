@@ -1,27 +1,31 @@
 <h1>New content</h1>
 
 <% form_for(@content) do |f| %>
-  <%= f.error_messages %>
+    <%= f.error_messages %>
 
-  <p>
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
-  </p>
-  <p>
-    <%= f.label :excerpt %><br />
-    <%= f.text_area :excerpt %>
-  </p>
-  <p>
-    <%= f.label :body %><br />
-    <%= f.text_area :body %>
-  </p>
-  <p>
-    <%= f.label :image_url %><br />
-    <%= f.text_field :image_url %>
-  </p>
-  <p>
-    <%= f.submit 'Create' %>
-  </p>
+    <p>
+      <%= f.label :title %><br/>
+      <%= f.text_field :title %>
+    </p>
+    <p>
+      <%= f.label :section %><br/>
+      <%= select_tag(:section_id, options_for_select(Section.all.map { |s| [s.name, s.id] })) %>
+    </p>
+    <p>
+      <%= f.label :excerpt %><br/>
+      <%= f.text_area :excerpt, :rows => 2 %>
+    </p>
+    <p>
+      <%= f.label :body %><br/>
+      <%= f.text_area :body, :rows => 5 %>
+    </p>
+    <p>
+      <%= f.label :image_url %><br/>
+      <%= f.text_field :image_url %>
+    </p>
+    <p>
+      <%= f.submit 'Create' %>
+    </p>
 <% end %>
 
 <%= link_to 'Back', contents_path %>
