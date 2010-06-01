@@ -1,5 +1,5 @@
 <head>
-  <title><%= yield(:title) %></title>
+  <title><%= yield :title %></title>
   <link rel="shortcut icon" href="/favicon.ico"/>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
   <title>Products: <%= controller.action_name %></title>
@@ -38,16 +38,6 @@
           });
       });
   </script>
-  <%= stylesheet_link_tag 'superfish' %>
-  <%= javascript_include_tag 'superfish' %>
-  <%= javascript_include_tag 'jquery.hoverIntent' %>
-  <script type="text/javascript">
-      $(document).ready(function() {
-          $("ul.sf-menu").superfish({
-              delay: 300
-          });
-      });
-  </script>
-  <%= yield :head_libraries %>
+  <%= yield :libraries %>
   <%= yield :head %>
 </head>

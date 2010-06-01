@@ -1,8 +1,21 @@
+<% content_for :libraries do %>
+    <%= stylesheet_link_tag 'superfish' %>
+    <%= javascript_include_tag 'superfish' %>
+    <%= javascript_include_tag 'jquery.hoverIntent' %>
+<% end %>
+
+<% content_for :head do %>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("ul.sf-menu").superfish({
+                delay: 300
+            });
+        });
+    </script>
+<% end %>
+
 <% content_for :menu do %>
-<ul class="sf-menu">
-  <%= build_menu menu, selected %>
-  <%= yield :menu_items %>
-</ul>
+    <%= build_menu menu, selected, :class => 'sf-menu' %>
 <% end %>
 
 <%= yield :menu %>
